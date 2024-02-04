@@ -1,0 +1,39 @@
+Enter int or '0': 4
+Enter name or done: 6
+Enter name or done: 5
+Enter name or done: 1
+Enter name or done: 9
+Enter name or done: 7
+Enter name or done: 3
+Enter name or done: 0
+The max data value in the BST is: 9
+The min data value in the BST is: 1
+What key would you like to search for? 2
+Not found!
+
+
+Enter int or '0': 5
+Enter name or done: 3
+Enter name or done: 7
+Enter name or done: 4
+Enter name or done: 2
+Enter name or done: 6
+Enter name or done: 8
+Enter name or done: 1
+Enter name or done: 9
+Enter name or done: 15
+Enter name or done: -1
+Enter name or done: 10
+Enter name or done: 0
+The max data value in the BST is: 15
+The min data value in the BST is: -1
+What key would you like to search for? -1
+Found!
+
+
+Enter int or '0': 0
+The max data value in the BST is: null
+The min data value in the BST is: null
+What key would you like to search for? 0
+The tree is empty
+

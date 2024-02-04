@@ -1,0 +1,93 @@
+Point
+Sample Input:
+
+    1 2
+    1.5 2.5
+    x y
+
+Expected Output:
+
+    XPOS: 1 YPOS: 2
+    XPOS: 1.5 YPOS: 2.5
+    XPOS: x YPOS: y
+
+Actual Output:
+    XPOS: 1 YPOS: 2
+    XPOS: 1.5 YPOS: 2.5
+    XPOS: x YPOS: y
+
+
+GenericStack
+Sample Input:
+
+    Halifax Montreal Toronto Calgary Vancouver quit
+    10 534 678 90008 52 3 20 34 -1
+
+Expected Output:
+
+    String Stack Contents:
+    Vancouver
+    Calgary
+    Toronto
+    Montreal
+    Halifax
+
+    Integer Stack Contents:
+    34
+    20
+    3
+    52
+    90008
+    678
+    534
+    10
+
+Actual Output:
+
+    String Stack Contents:
+    Vancouver
+    Calgary
+    Toronto
+    Montreal
+    Halifax
+
+    Integer Stack Contents:
+    34
+    20
+    3
+    52
+    90008
+    678
+    534
+    10
+
+
+StudentRecord
+Input(Varies depending on the location of the StudentList file):
+
+    C:\Users\Shreya Sharma\IdeaProjects\src\CSCI2110\Lab2\StudentList
+
+Expected output:
+
+    Crane
+    Bones
+    Pokemon
+    Pokemon
+    Dude
+    Chaser
+    Norris
+    Dude
+
+Actual Output:
+
+    Crane
+    Bones
+    Pokemon
+    Pokemon
+    Dude
+    Chaser
+    Norris
+    Dude
+
+
+

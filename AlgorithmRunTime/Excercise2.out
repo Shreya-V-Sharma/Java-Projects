@@ -1,0 +1,23 @@
+Input:
+5 100 1000 10000 100000 1000000 10000000 0
+
+Output:
+5 3 14 0
+100 70 327 0
+
+It was taking too long to compile for n values 1000, 10000, 100000, 1000000, and 10000000, it never finished compiling so didn't output anything
+The runtime must have been very high for them.
+
+I will test some points(n) in between to make graph smooth
+
+20 11 54 0
+40 35 326 0
+60 35 326 0
+80 70 327 0
+200 140 328 0
+300 241 542 0
+400 315 550 0
+500 315 550 0
+600 315 550 0
+700 675 909 0
+takes too long after n = 700

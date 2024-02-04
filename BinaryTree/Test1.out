@@ -1,0 +1,34 @@
+Test 1
+    Height of the tree is: 3
+    Number of nodes in the tree is: 6
+
+    Inorder:	F	D	B	E	A	C
+    Preorder:	A	B	D	F	E	C
+    Postorder:	F	D	E	B	C	A
+    Level order:	A	B	C	D	E	F
+
+    And is it height balanced... No.
+
+Test 2
+
+    Height of the tree is: 3
+    Number of nodes in the tree is: 7
+
+    Inorder:	M	J	H	G	K	I	L
+    Preorder:	G	H	J	M	I	K	L
+    Postorder:	M	J	H	K	L	I	G
+    Level order:	G	H	I	J	K	L	M
+
+    And is it height balanced... No.
+
+Test 3
+
+    Height of the tree is: 3
+    Number of nodes in the tree is: 7
+
+    Inorder:	Q	O	N	R	P	S	T
+    Preorder:	N	O	Q	P	R	S	T
+    Postorder:	Q	O	R	T	S	P	N
+    Level order:	N	O	P	Q	R	S	T
+
+    And is it height balanced... Yes!

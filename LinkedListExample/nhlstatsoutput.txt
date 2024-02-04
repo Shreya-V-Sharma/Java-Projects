@@ -1,0 +1,22 @@
+(file path may vary depending on the location of nhlstats.txt file)
+Enter the filename to read from: C:\Users\Shreya Sharma\IdeaProjects\src\CSCI2110\Assignment3\nhlstats.txt
+NHL Results Summary
+
+Players with highest points and their teams:
+St.Louis TB
+
+Most aggressive players, their teams and their positions:
+Clowe NYR RW
+Ott BUF C
+
+Most valuable players and their teams:
+Carter LA
+
+Most promising players and their teams:
+Ovechkin WSH
+
+Teams that had the most number of penalty minutes:
+BOS
+
+Teams that had the most number of game winning goals:
+PIT

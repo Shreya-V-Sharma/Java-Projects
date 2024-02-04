@@ -1,0 +1,158 @@
+Sample Input:
+
+    2
+    1.0 1.0 5.0 5.0
+    2.0 2.0 3.0 3.0
+    1.0 1.0 5.0 5.0
+    2.0 2.0 4.0 4.0
+
+Expected Output:
+
+    The first Rectangle's top corner is: 1.0, 1.0
+    It's width is: 5.0
+    It's height is: 5.0
+
+    The second Rectangle's top corner is: 2.0, 2.0
+    It's width is: 3.0
+    It's height is: 3.0
+
+    The contains method returns: true
+    The touches method returns: false
+
+
+    The first Rectangle's top corner is: 1.0, 1.0
+    It's width is: 5.0
+    It's height is: 5.0
+
+    The second Rectangle's top corner is: 2.0, 2.0
+    It's width is: 4.0
+    It's height is: 4.0
+
+    The contains method returns: false
+    The touches method returns: true
+
+
+Actual output: (100% same as above)
+
+    The first Rectangle's top corner is: 1.0, 1.0
+    It's width is: 5.0
+    It's height is: 5.0
+
+    The second Rectangle's top corner is: 2.0, 2.0
+    It's width is: 3.0
+    It's height is: 3.0
+
+    The contains method returns: true
+    The touches method returns: false
+
+
+    The first Rectangle's top corner is: 1.0, 1.0
+    It's width is: 5.0
+    It's height is: 5.0
+
+    The second Rectangle's top corner is: 2.0, 2.0
+    It's width is: 4.0
+    It's height is: 4.0
+
+    The contains method returns: false
+    The touches method returns: true
+
+
+Extra Test cases(from pg.5):
+
+    The output is in the following form
+
+    (contains method result)
+    (touches method result)
+
+Expected output:
+
+    1 true
+      false
+
+    2 false
+      true
+
+    3 true
+      false
+
+    4 false
+      true
+
+    5 false
+      true
+
+    6 false
+      true
+
+    7 false
+      false
+
+Actual output(same as above):
+
+    1 true
+      false
+
+    2 false
+      true
+
+    3 true
+      false
+
+    4 false
+      true
+
+    5 false
+      true
+
+    6 false
+      true
+
+    7 false
+      false
+
+
+Extra cases:
+
+    8 Testing touches(Rectangle1 r) and containes(Rectangle1 r),same x position (on the line), but y outside of the rectangle
+      Ex. rect1 = Rectangle(0,0,2,2)  rect 2 = (2,3,1,1)
+      this is not touching and not contained
+    9 Testing contains(px,py), touching corner
+      not contained
+    10 Testing touches(px,py), similar case as 8. same x(on line) but y outside of rectangle
+       not touching
+
+
+    The output is in the following form
+
+    8 (contains method result)
+      (touches method result)
+
+    9 (contains method result)
+
+    10 (touches method result)
+
+Expected result:
+
+    8 false
+      false
+
+    9 false
+
+    10 false
+
+Actual result(same as above):
+
+    8 false
+      false
+
+    9 false
+
+    10 false
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+The output will be in the following format
+
+(original list)
+
+Here is the linked list with even-numbered nodes:
+(Strings at even index of the list)
+
+Here is the linked list with odd-numbered nodes:
+(Strings at odd index of the list)
+
+Here is the reversed linked list:
+(revered list)
+
+(list with middle element removed)
+
+
+Test 1:
+
+    Enter Pokemon names, one on each line
+    Enter quit to end
+    a
+    b
+    c
+    d
+    e
+    quit
+    e--> d--> c--> b--> a-->
+
+    Here is the linked list with even-numbered nodes:
+    e   c   a
+
+    Here is the linked list with odd-numbered nodes:
+    d   b
+
+    Here is the reversed linked list:
+    a--> b--> c--> d--> e-->
+
+    e--> d--> b--> a-->
+
+Test 2:
+
+    Enter Pokemon names, one on each line
+    Enter quit to end
+    a
+    b
+    c
+    d
+    quit
+    d--> c--> b--> a-->
+
+    Here is the linked list with even-numbered nodes:
+    d   b
+
+    Here is the linked list with odd-numbered nodes:
+    c   a
+
+    Here is the reversed linked list:
+    a--> b--> c--> d-->
+
+    d--> b--> a-->
+
+Test 3:
+
+    Enter Pokemon names, one on each line
+    Enter quit to end
+    Pikachu
+    Charizard
+    Mewtwo
+    Emboar
+    Bulbasaur
+    Eevee
+    Gengar
+    Ditto
+    Charmander
+    quit
+    Charmander--> Ditto--> Gengar--> Eevee--> Bulbasaur--> Emboar--> Mewtwo--> Charizard--> Pikachu-->
+
+    Here is the linked list with even-numbered nodes:
+    Charmander   Gengar   Bulbasaur   Mewtwo   Pikachu
+
+    Here is the linked list with odd-numbered nodes:
+    Ditto   Eevee   Emboar   Charizard
+
+    Here is the reversed linked list:
+    Pikachu--> Charizard--> Mewtwo--> Emboar--> Bulbasaur--> Eevee--> Gengar--> Ditto--> Charmander-->
+
+    Charmander--> Ditto--> Gengar--> Eevee--> Emboar--> Mewtwo--> Charizard--> Pikachu-->
+
+

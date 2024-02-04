@@ -1,0 +1,34 @@
+Run 1:
+    Huffman Coding
+    Enter the name of the file with S and probability: C:\Users\Shreya Sharma\IdeaProjects\src\CSCI2110\Assignment5\LettersProbability.txt
+
+    Building the Huffman tree...
+    Huffman coding completed.
+
+    Enter a line of text (uppercase letters only): I LOVE CODING
+    Here’s the encoded line: 1100 101111101001010010 0110011011111111001010111100
+    The decoded line is: I LOVE CODING
+
+
+Run 2:
+    Huffman Coding
+    Enter the name of the file with S and probability: C:\Users\Shreya Sharma\IdeaProjects\src\CSCI2110\Assignment5\LettersProbability.txt
+
+    Building the Huffman tree...
+    Huffman coding completed.
+
+    Enter a line of text (uppercase letters only): DATA STRUCTURES AND ALGORITHMS
+    Here’s the encoded line: 1111111100001110 1001000100001101011000000110110000101001 1110101011111 1110101111111001101100011000000111001111001
+    The decoded line is: DATA STRUCTURES AND ALGORITHMS
+
+
+Run 3:
+    Huffman Coding
+    Enter the name of the file with S and probability: C:\Users\Shreya Sharma\IdeaProjects\src\CSCI2110\Assignment5\LettersProbability.txt
+
+    Building the Huffman tree...
+    Huffman coding completed.
+
+    Enter a line of text (uppercase letters only): COMPUTER SCIENCE JAVA
+    Here’s the encoded line: 01100110100111101101011010000101000 1001011001100010101001100010 00101100111100010101110
+    The decoded line is: COMPUTER SCIENCE JAVA

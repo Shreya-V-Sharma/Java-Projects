@@ -1,0 +1,28 @@
+Input:
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+
+Output:
+The execution time to generate binary number from 0 to 1023 is 0 ms
+The execution time to generate binary number from 0 to 4095 is 0 ms
+The execution time to generate binary number from 0 to 16383 is 16 ms
+The execution time to generate binary number from 0 to 65535 is 15 ms
+The execution time to generate binary number from 0 to 262143 is 5 ms
+The execution time to generate binary number from 0 to 1048575 is 31 ms
+The execution time to generate binary number from 0 to 4194303 is 85 ms
+The execution time to generate binary number from 0 to 16777215 is 253 ms
+The execution time to generate binary number from 0 to 67108863 is 1086 ms
+The execution time to generate binary number from 0 to 268435455 is 4228 ms
+The execution time to generate binary number from 0 to 1073741823 is 23432 ms
+The execution time to generate binary number from 0 to 2147483646 is 49285 ms
+

@@ -1,0 +1,160 @@
+---The format of this file will be as follows:---
+input:
+output:
+
+
+input:
+output:
+
+.
+.
+.
+(all these inputs are entered during one "game round")
+(just like the sample run of the program in the lab document)
+
+____________________________________________________________________________________________________________________________________________________________
+
+Enter a command (type help for details):
+print
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+
+
+Enter a command (type help for details):
+create 3 3 fast flexible
+Input a name for the new piece:
+Jedi
+Input a colour for the new piece:
+Red
+
+
+Enter a command (type help for details):
+print
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          JediRedFF  -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+
+
+Enter a command (type help for details):
+move 1 1
+Error: need direction and steps(optional)
+
+
+Enter a command (type help for details):
+move 1 1 up
+Error: no piece at (1,1)
+
+
+Enter a command (type help for details):
+move 3 3 up 2
+Piece at (3,3) moved up by 2 spaces
+
+
+Enter a command (type help for details):
+print
+-          -          -          -          -          -          -          -
+-          -          -          JediRedFF  -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+
+
+Enter a command (type help for details):
+create
+Error: need location
+
+
+Enter a command (type help for details):
+create 1 1
+Input a name for the new piece:
+Ben
+Input a colour for the new piece:
+Blue
+
+
+Enter a command (type help for details):
+print
+-          -          -          -          -          -          -          -
+-          BenBlueS   -          JediRedFF  -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+-          -          -          -          -          -          -          -
+
+
+Enter a command (type help for details):
+ create 1
+Error: need location
+
+
+Enter a command (type help for details):
+create x y
+Error: invalid input for location, please input integer
+
+
+Enter a command (type help for details):
+create 7 7 unicorn
+Input a name for the new piece:
+uni
+Input a colour for the new piece:
+corn
+Error: not valid type
+
+
+Enter a command (type help for details):
+move
+Error: need location, direction and steps(optional)
+
+
+Enter a command (type help for details):
+move x 1
+Error: invalid input for location, please input integer
+
+
+Enter a command (type help for details):
+move 1 x
+Error: invalid input for location, please input integer
+
+
+Enter a command (type help for details):
+help
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+
+
+Enter a command (type help for details):
+jump
+Error: not valid command
+
+
+Enter a command (type help for details):
+create11
+Error: not valid command
+
+
+Enter a command (type help for details):
+exit
+Done.
+
+
+

@@ -1,0 +1,72 @@
+Exercise 1:
+
+    Factorial of a number
+    The factorials of the integers 1 through 10 are
+    1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800
+
+    Fibonacci numbers
+    The first 20 numbers in the Fibonacci series are
+    0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
+
+    Power of a number
+    Enter a positive integer x:
+    2
+    Enter another positive integer:
+    3
+    2 to the power of 3 is 8
+
+Exercise 2:
+
+    Enter a positive integer:
+    10
+    10      9      8      7      6      5      4      3      2      1      BlastOff!
+
+Exercise 3:
+
+    Enter a positive integer:
+    9
+    9      7      5      3      1      BlastOff!
+
+    Enter a positive integer:
+    10
+    10      8      6      4      2      BlastOff!
+
+Exercise 4:
+
+    Enter a positive integer n:
+    5
+    Enter another positive integer m:
+    5
+    5, 10, 15, 20, 25
+
+
+Exercise 5:
+    Enter a positive integer n:
+    1234
+    1
+    2
+    3
+    4
+
+Exercise 6:
+
+    Enter a positive integer n:
+    4
+    sum of the squares of all digits 1 through 4 is 30
+
+Exercise 7:
+    sample run of program:
+
+        Enter a positive integer n:
+        4
+        4    15    0
+
+    Just outputs for n equal to 8,12,16,20,24,28,32
+
+        8    255    0
+        12    4095    0
+        16    65535    0
+        20    1048575    16
+        24    16777215    32
+        28    268435455    448
+        32    4294967295    8714

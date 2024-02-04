@@ -1,0 +1,40 @@
+test 1
+    Enter name or done:A
+    Enter name or done:done
+
+    Height of the tree is: 0
+    Number of nodes in the tree is: 1
+
+    Inorder:	A
+    Preorder:	A
+    Postorder:	A
+    Level order:	A
+
+Test 2
+    Enter name or done:A
+    Enter name or done:B
+    Enter name or done:done
+
+    Height of the tree is: 1
+    Number of nodes in the tree is: 2
+
+    Inorder:	B	A
+    Preorder:	A	B
+    Postorder:	B	A
+    Level order:	A	B
+
+Test 3
+
+    Enter name or done:A
+    Enter name or done:B
+    Enter name or done:C
+    Enter name or done:D
+    Enter name or done:done
+
+    Height of the tree is: 2
+    Number of nodes in the tree is: 4
+
+    Inorder:	D	B	A	C
+    Preorder:	A	B	D	C
+    Postorder:	D	B	C	A
+    Level order:	A	B	C	D

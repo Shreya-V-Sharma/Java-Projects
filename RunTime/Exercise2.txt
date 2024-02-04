@@ -1,0 +1,15 @@
+I get following exception when I try matrix of size around 19000(not 10000 like specified in the lab doucment)
+
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at CSCI2110.Lab3.MatrixMult.matrixMult(MatrixMult.java:37)
+	at CSCI2110.Lab3.MatrixMult.main(MatrixMult.java:25)
+
+This exception is thrown when there is not enough space(memory) in Java heap(where objects instantiated by a program are stored) to store a specific
+variable/object.This object would be larger than the memory space a available in Java heap. In our program when we make a matrix of size 19000 by 19000,
+that would need a lot of memory. Java heap doesn't have this much space, so "OutOfMemoryError: Java heap space" exception is thrown.
+
+Citation:
+1. https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks002.html
+2. https://sematext.com/blog/java-lang-outofmemoryerror/
+3. https://www.azul.com/blog/what-is-java-heap-size/#:~:text=The%20Java%20heap%20is%20the,as%20the%20application%20is%20running.
+
